@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: iisp-gateway
+
 ribbon:
   eureka:
     enabled: true
