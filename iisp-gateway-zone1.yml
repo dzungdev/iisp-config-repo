@@ -8,13 +8,3 @@ zuul:
     client:
       path: /property/**
       serviceId: property-service
-
-spring:
-  profiles: zone1
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://dungdt:123456@peer1:8761/eureka/
-    preferSameZoneEureka: true
-server:
-  port: ${PORT:8765}
