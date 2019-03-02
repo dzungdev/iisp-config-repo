@@ -1,6 +1,7 @@
 spring:
   application:
     name: iisp-gateway
+  profiles: zone1
 
 ribbon:
   eureka:
