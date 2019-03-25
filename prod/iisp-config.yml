@@ -1,0 +1,19 @@
+server:
+  port: ${PORT:8889}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include=*:
+
+# spring:
+#   security:
+#     user:
+#       name: dungdt
+#       password: 123456
+
+# eureka:
+#   client:
+#     serviceUrl:
+#       defaultZone: http://dungdt:123456@peer1:8761/eureka/,http://dungdt:123456@peer1:8761/eureka/
