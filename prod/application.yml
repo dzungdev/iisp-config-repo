@@ -8,5 +8,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://dungdt:123456@peer1:8761/eureka/,http://dungdt:123456@peer2:8762/eureka/,http://dungdt:123456@peer3:8763/eureka/
-
-      
